@@ -1,0 +1,61 @@
+{
+  "projectType": "saas",
+  "projectName": "City Report",
+  "projectDescription": "A municipal citizen reporting system that enables citizens to report urban issues and allows municipal staff to manage and track these reports efficiently.",
+  "theme": "linden",
+  "primaryColor": "#2563eb",
+  "lightColor": "#3b82f6",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "overview"]
+          },
+          {
+            "group": "Research",
+            "pages": ["research/objectives", "research/hypothesis", "research/justification"]
+          },
+          {
+            "group": "Platform Overview",
+            "pages": ["platform/web-version", "platform/mobile-version", "platform/integration"]
+          },
+          {
+            "group": "User Guides",
+            "pages": ["guides/citizens", "guides/municipal-staff"]
+          },
+          {
+            "group": "Features",
+            "pages": ["features/report-management", "features/status-tracking", "features/transparency"]
+          }
+        ]
+      },
+      {
+        "tab": "About",
+        "groups": [
+          {
+            "group": "Project Information",
+            "pages": ["about/target-audience", "about/impact", "about/future"]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Web platform for municipal staff to manage and track citizen reports",
+    "Mobile application for citizens to submit and track their reports",
+    "Centralized reporting system with status tracking",
+    "Transparent communication channel between citizens and municipality",
+    "Age-targeted design for citizens (18-65) and municipal staff (22-60)"
+  ],
+  "publicApiSurface": [
+    "Citizen reporting submission",
+    "Report status tracking",
+    "Municipal staff dashboard",
+    "Report categorization and classification",
+    "Operational workflow management"
+  ]
+}
